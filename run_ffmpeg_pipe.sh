@@ -10,7 +10,7 @@
 # https://trac.ffmpeg.org/wiki/EncodingForStreamingSites
 # https://trac.ffmpeg.org/wiki/StreamingGuide
 
-filter=scale=480:-1,crop=480:160:0:0,pad=1280:720:0:0:black,paletteuse=dither=bayer:bayer_scale=0
+filter=scale=480:-1,crop=480:160:0:0,paletteuse=dither=bayer:bayer_scale=0
 
 while :
 do
