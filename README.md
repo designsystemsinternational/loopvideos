@@ -1,15 +1,13 @@
-# Loop videos
+# The one that works
 
-This repo uses `ffmpeg` and `mplayer`, which can be installed via Homebrew on mac, or manually on windows.
+First:
 
-To test this repo, first run `bash run_ffmpeg.sh`, then in another window run `bash run_mplayer.sh`.
+```
+$ bash run_mpv.sh
+```
 
-Read the `run_ffmpeg.sh` comments for how to tweak the quality of the video.
+Then:
 
-
-# Pipe stream 
-
-
-Just run `bash run_ffmpeg_pipe.sh | mplayer -cache 8192 -`
-
-****this works like a charm on a mac, but fails on windows. Help Wanted****
+```
+$ bash run_ffmpeg.sh
+```
